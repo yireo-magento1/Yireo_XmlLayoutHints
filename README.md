@@ -1,7 +1,5 @@
 # Yireo XmlLayoutHints
 
-More information: https://www.yireo.com/software/magento-extensions/xmllayouthints
-
 ## Installation
 You can install this module in various ways:
 
