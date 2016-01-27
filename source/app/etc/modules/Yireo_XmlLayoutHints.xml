@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * XmlLayoutHints-module for Magento 
+ *
+ * @package     Yireo_XmlLayoutHints
+ * @author      Yireo
+ * @copyright   Copyright (c) 2015 Yireo (http://www.yireo.com/)
+ * @license     Open Software License
+ */
+-->
+<config>
+    <modules>
+        <Yireo_XmlLayoutHints>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Yireo_XmlLayoutHints>
+    </modules>
+</config>

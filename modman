@@ -1,0 +1,3 @@
+# Modman file
+source/app/code/community/Yireo/XmlLayoutHints      app/code/community/Yireo/XmlLayoutHints
+source/app/etc/modules/Yireo_XmlLayoutHints.xml     app/etc/modules/Yireo_XmlLayoutHints.xml
