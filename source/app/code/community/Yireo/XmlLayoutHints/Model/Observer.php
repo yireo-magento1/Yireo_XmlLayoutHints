@@ -5,7 +5,7 @@
  * @author Yireo
  * @copyright Copyright 2015
  * @license Open Source License
- * @link http://www.yireo.com
+ * @link https://www.yireo.com
  */
 
 /*
@@ -16,6 +16,10 @@ class Yireo_XmlLayoutHints_Model_Observer
     public function coreBlockAbstractToHtmlAfter($observer)
     {
         if (Mage::app()->getStore()->isAdmin()) {
+            return $this;
+        }
+
+        if ((bool)Mage::getStoreConfig('advanced/modules_disable_output/Yireo_XmlLayoutHints')) {
             return $this;
         }
 
